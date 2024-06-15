@@ -1,0 +1,33 @@
+{
+    "name": "sebikostudio-icons",
+    "version": "1.0.1",
+    "description": "A collection of icon components",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "babel src --out-dir dist"
+    },
+    "dependencies": {
+        "react": "^17.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.24.7",
+        "@babel/core": "^7.24.7",
+        "@babel/preset-react": "^7.24.7"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sebastiangrochocki/sebikostudio-icons.git"
+    },
+    "keywords": [
+        "icons",
+        "react",
+        "components"
+    ],
+    "author": "Sebastian Grochocki",
+    "license": "MIT"
+}
