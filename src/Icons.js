@@ -750,6 +750,156 @@ export const SquareIcon = forwardRef(({ className, style }, ref) => (
   </svg>
 ));
 
+export const TableIcon = forwardRef(({ className, style }, ref) => (
+  <svg
+    ref={ref}
+    className={className}
+    style={style}
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17.5 17.5L2.5 17.5C1.94772 17.5 1.5 17.0523 1.5 16.5L1.5 3.5C1.5 2.94772 1.94772 2.5 2.5 2.5L17.5 2.5C18.0523 2.5 18.5 2.94772 18.5 3.5L18.5 16.5C18.5 17.0523 18.0523 17.5 17.5 17.5Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path d="M10 2.5V17.5" stroke="currentColor" strokeLinejoin="round" />
+    <path
+      d="M18.5 12.5L1.5 12.5"
+      stroke="currentColor"
+      strokeLinejoin="round"
+    />
+    <path d="M18.5 7.5L1.5 7.5" stroke="currentColor" strokeLinejoin="round" />
+  </svg>
+));
+
+export const ImageIcon = forwardRef(({ className, style }, ref) => (
+  <svg
+    ref={ref}
+    className={className}
+    style={style}
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17.5 17.5L2.5 17.5C1.94772 17.5 1.5 17.0523 1.5 16.5L1.5 3.5C1.5 2.94772 1.94772 2.5 2.5 2.5L17.5 2.5C18.0523 2.5 18.5 2.94772 18.5 3.5L18.5 16.5C18.5 17.0523 18.0523 17.5 17.5 17.5Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M1.5 13.5L6.5 8.5L13.5 14.5"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M12 13L14.5 10.5L18.5 14"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <circle cx="12" cy="7" r="1.5" stroke="currentColor" />
+  </svg>
+));
+
+export const LayoutIcon = forwardRef(({ className, style }, ref) => (
+  <svg
+    ref={ref}
+    className={className}
+    style={style}
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17.5 18.5L2.5 18.5C1.94772 18.5 1.5 18.0523 1.5 17.5L1.5 2.5C1.5 1.94772 1.94772 1.5 2.5 1.5L17.5 1.5C18.0523 1.5 18.5 1.94772 18.5 2.5L18.5 17.5C18.5 18.0523 18.0523 18.5 17.5 18.5Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path d="M6.5 6.5V18.5" stroke="currentColor" strokeLinejoin="round" />
+    <path d="M18.5 6.5L1.5 6.5" stroke="currentColor" strokeLinejoin="round" />
+  </svg>
+));
+
+export const ViewVerticalIcon = forwardRef(({ className, style }, ref) => (
+  <svg
+    ref={ref}
+    className={className}
+    style={style}
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17.5 17.5L2.5 17.5C1.94772 17.5 1.5 17.0523 1.5 16.5L1.5 3.5C1.5 2.94772 1.94772 2.5 2.5 2.5L17.5 2.5C18.0523 2.5 18.5 2.94772 18.5 3.5L18.5 16.5C18.5 17.0523 18.0523 17.5 17.5 17.5Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path d="M10 2.5V17.5" stroke="currentColor" strokeLinejoin="round" />
+  </svg>
+));
+
+export const ViewHorizontalIcon = forwardRef(({ className, style }, ref) => (
+  <svg
+    ref={ref}
+    className={className}
+    style={style}
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17.5 17.5L2.5 17.5C1.94772 17.5 1.5 17.0523 1.5 16.5L1.5 3.5C1.5 2.94772 1.94772 2.5 2.5 2.5L17.5 2.5C18.0523 2.5 18.5 2.94772 18.5 3.5L18.5 16.5C18.5 17.0523 18.0523 17.5 17.5 17.5Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path d="M18.5 10L1.5 10" stroke="currentColor" strokeLinejoin="round" />
+  </svg>
+));
+
+export const ViewNoneIcon = forwardRef(({ className, style }, ref) => (
+  <svg
+    ref={ref}
+    className={className}
+    style={style}
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M8.5 16.5L17.5 16.5C18.0523 16.5 18.5 16.0523 18.5 15.5L18.5 4.5C18.5 3.94772 18.0523 3.5 17.5 3.5L17 3.5M11.5 3.5L2.5 3.5C1.94772 3.5 1.5 3.94772 1.5 4.5L1.5 15.5C1.5 16.0523 1.94771 16.5 2.5 16.5L3 16.5"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M15.5 1.5L4.5 18.5"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+));
+
 export const CircleIcon = forwardRef(({ className, style }, ref) => (
   <svg
     ref={ref}
