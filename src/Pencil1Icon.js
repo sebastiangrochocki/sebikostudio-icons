@@ -7,4 +7,6 @@
 </svg>
 
     ));
+
+    export default Pencil1Icon;
   

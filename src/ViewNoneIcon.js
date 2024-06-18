@@ -8,4 +8,6 @@
 </svg>
 
     ));
+
+    export default ViewNoneIcon;
   

@@ -10,4 +10,6 @@
 </svg>
 
     ));
+
+    export default FrameIcon;
   

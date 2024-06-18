@@ -9,4 +9,6 @@
 </svg>
 
     ));
+
+    export default AlignCenterHorizontallyIcon;
   

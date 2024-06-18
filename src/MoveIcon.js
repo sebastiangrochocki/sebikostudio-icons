@@ -14,4 +14,6 @@
 </svg>
 
     ));
+
+    export default MoveIcon;
   

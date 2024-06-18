@@ -19,4 +19,6 @@
 </svg>
 
     ));
+
+    export default BlurIcon;
   

@@ -11,4 +11,6 @@
 </svg>
 
     ));
+
+    export default VectorIcon;
   
