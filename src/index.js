@@ -66,3 +66,6 @@ export { default as ArrowRightIcon } from './ArrowRightIcon';
 export { default as ArrowUpIcon } from './ArrowUpIcon';
 export { default as ArrowDownIcon } from './ArrowDownIcon';
 export { default as BellTiltedIcon } from './BellTiltedIcon';
+export { default as Presentation1Icon } from './Presentation1Icon';
+export { default as FileIcon } from './FileIcon';
+export { default as Presentation2Icon } from './Presentation2Icon';
