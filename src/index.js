@@ -129,7 +129,6 @@ export { default as CornerTopRightIcon } from './CornerTopRightIcon';
 export { default as CornerBottomRightIcon } from './CornerBottomRightIcon';
 export { default as CornerBottomLeftIcon } from './CornerBottomLeftIcon';
 export { default as CornersIcon } from './CornersIcon';
-export { default as VectorIcon } from './VectorIcon';
 export { default as SparklesIcon } from './SparklesIcon';
 export { default as LinkedInLogoIcon } from './LinkedInLogoIcon';
 export { default as InstagramLogoIcon } from './InstagramLogoIcon';
