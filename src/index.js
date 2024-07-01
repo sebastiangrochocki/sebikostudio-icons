@@ -115,7 +115,7 @@ export { default as EnterIcon } from './EnterIcon';
 export { default as ExternalLinkIcon } from './ExternalLinkIcon';
 export { default as OpeninNewWindowIcon } from './OpeninNewWindowIcon';
 export { default as SwitchIcon } from './SwitchIcon';
-export { default as RotateCounter-ClockwiseIcon } from './RotateCounter-ClockwiseIcon';
+export { default as RotateCounterClockwiseIcon } from './RotateCounterClockwiseIcon';
 export { default as DimensionsIcon } from './DimensionsIcon';
 export { default as FigmaLogoFilledIcon } from './FigmaLogoFilledIcon';
 export { default as GitHubLogoIcon } from './GitHubLogoIcon';
