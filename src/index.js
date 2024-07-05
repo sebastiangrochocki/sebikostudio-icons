@@ -173,6 +173,7 @@ export { default as Component1Icon } from './Component1Icon';
 export { default as ComponentInstanceIcon } from './ComponentInstanceIcon';
 export { default as CodeIcon } from './CodeIcon';
 export { default as RepeatIcon } from './RepeatIcon';
+export { default as RetentionIcon } from './RetentionIcon';
 export { default as TextAlignBottomIcon } from './TextAlignBottomIcon';
 export { default as TextAlignMiddleIcon } from './TextAlignMiddleIcon';
 export { default as FontSizeIcon } from './FontSizeIcon';
