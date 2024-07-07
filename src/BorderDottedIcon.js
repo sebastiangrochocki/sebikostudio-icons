@@ -2,7 +2,7 @@
     import React, { forwardRef } from 'react';
 
     export const BorderDottedIcon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="Sebastian Grochocki, https://www.linkedin.com/in/sebastiangrochocki/, presentation, slides, ppt, powerpoint" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg ref={ref} className={className} aria-label="border, border dotted, dotted, line" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="8.5" width="2" height="2" rx="1" fill="currentColor"/>
 <rect x="6" y="8.5" width="2" height="2" rx="1" fill="currentColor"/>
 <rect x="12" y="8.5" width="2" height="2" rx="1" fill="currentColor"/>

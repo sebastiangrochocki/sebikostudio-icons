@@ -2,7 +2,7 @@
     import React, { forwardRef } from 'react';
 
     export const HamburgerMenuIcon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="Sebastian Grochocki, https://www.linkedin.com/in/sebastiangrochocki/, presentation, slides, ppt, powerpoint" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg ref={ref} className={className} aria-label="hamburger menu, menu, lines, three lines, strokes" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17.5 4.5H2.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M17.5 14.5H2.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M17.5 9.5H2.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
