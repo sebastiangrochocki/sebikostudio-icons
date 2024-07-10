@@ -290,3 +290,4 @@ export { default as DropdownMenuIcon } from './DropdownMenuIcon';
 export { default as MicIcon } from './MicIcon';
 export { default as PillIcon } from './PillIcon';
 export { default as Pill2Icon } from './Pill2Icon';
+export { default as PenIcon } from './PenIcon';
