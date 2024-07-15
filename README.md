@@ -1,3 +1,5 @@
+![Sebikostudio Icons React Components](https://sebikostudio.com/utils/Sebikostudio-Icons.png)
+
 # Sebikostudio Icons
 
 A collection of React icon components.
@@ -6,3 +8,4 @@ A collection of React icon components.
 
 ```bash
 npm install sebikostudio-icons
+```

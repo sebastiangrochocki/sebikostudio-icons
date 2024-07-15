@@ -329,3 +329,5 @@ export { default as LetterCaseCapitalizeIcon } from './LetterCaseCapitalizeIcon'
 export { default as LetterCaseToggleIcon } from './LetterCaseToggleIcon';
 export { default as LetterCaseLowercaseIcon } from './LetterCaseLowercaseIcon';
 export { default as LetterCaseUppercaseIcon } from './LetterCaseUppercaseIcon';
+export { default as FlipVerticalIcon } from './FlipVerticalIcon';
+export { default as FlipHorizontalIcon } from './FlipHorizontalIcon';
