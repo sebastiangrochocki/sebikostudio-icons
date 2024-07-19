@@ -1,6 +1,6 @@
 {
     "name": "sebikostudio-icons",
-    "version": "1.3.6",
+    "version": "1.3.7",
     "description": "A collection of icon components",
     "main": "dist/index.js",
     "scripts": {
