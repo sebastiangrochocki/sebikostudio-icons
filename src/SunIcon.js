@@ -1,8 +1,8 @@
 
     import React, { forwardRef } from 'react';
-
-    export const SunIcon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="sun, star, light, sunlight, day, daylight, lightmode, mode" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+    export const SunIcon = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
+      <svg ref={ref} className={className} aria-label={ariaLabel || "sun, star, light, sunlight, day, daylight, lightmode, mode"} style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <circle cx="10" cy="10" r="3.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M17.5 2.5L14.5 5.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M17.5 17.5L14.5 14.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
@@ -15,6 +15,6 @@
 </svg>
 
     ));
-
+  
     export default SunIcon;
   

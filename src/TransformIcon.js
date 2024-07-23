@@ -1,8 +1,8 @@
 
     import React, { forwardRef } from 'react';
-
-    export const TransformIcon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="transform, box, square, vector, shapes" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+    export const TransformIcon = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
+      <svg ref={ref} className={className} aria-label={ariaLabel || "transform, box, square, vector, shapes"} style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path d="M15 3.5L5 3.5M16.5 15L16.5 5M3.5 15L3.5 5M5 16.5L15 16.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <rect x="6.5" y="6.5" width="3" height="3" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <rect x="9.5" y="9.5" width="4" height="4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
@@ -13,6 +13,6 @@
 </svg>
 
     ));
-
+  
     export default TransformIcon;
   

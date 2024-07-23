@@ -401,3 +401,5 @@ export { default as PaddingRightIcon } from './PaddingRightIcon';
 export { default as PaddingTopIcon } from './PaddingTopIcon';
 export { default as ExclamationOctagonIcon } from './ExclamationOctagonIcon';
 export { default as OctagonIcon } from './OctagonIcon';
+export { default as FontFamilyIcon } from './FontFamilyIcon';
+export { default as ScissorsIcon } from './ScissorsIcon';

@@ -1,8 +1,8 @@
 
     import React, { forwardRef } from 'react';
-
-    export const DragHandleDots1Icon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="drag handle dots, drag handle, handle, dots" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+    export const DragHandleDots1Icon = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
+      <svg ref={ref} className={className} aria-label={ariaLabel || "drag handle dots, drag handle, handle, dots"} style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path d="M5 2C5 1.44772 5.44772 1 6 1C6.55228 1 7 1.44772 7 2C7 2.55228 6.55228 3 6 3C5.44772 3 5 2.55228 5 2Z" fill="currentColor"/>
 <path d="M5 6C5 5.44772 5.44772 5 6 5C6.55228 5 7 5.44772 7 6C7 6.55228 6.55228 7 6 7C5.44772 7 5 6.55228 5 6Z" fill="currentColor"/>
 <path d="M5 10C5 9.44772 5.44772 9 6 9C6.55228 9 7 9.44772 7 10C7 10.5523 6.55228 11 6 11C5.44772 11 5 10.5523 5 10Z" fill="currentColor"/>
@@ -21,6 +21,6 @@
 </svg>
 
     ));
-
+  
     export default DragHandleDots1Icon;
   

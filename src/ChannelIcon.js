@@ -1,8 +1,8 @@
 
     import React, { forwardRef } from 'react';
-
-    export const ChannelIcon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="channel, flows, connected, marketing" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+    export const ChannelIcon = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
+      <svg ref={ref} className={className} aria-label={ariaLabel || "channel, flows, connected, marketing"} style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path d="M4.5 10C4.5 9.17157 3.82843 8.5 3 8.5C2.17157 8.5 1.5 9.17157 1.5 10C1.5 10.8284 2.17157 11.5 3 11.5C3.82843 11.5 4.5 10.8284 4.5 10Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M18.5 10C18.5 9.17157 17.8284 8.5 17 8.5C16.1716 8.5 15.5 9.17157 15.5 10C15.5 10.8284 16.1716 11.5 17 11.5C17.8284 11.5 18.5 10.8284 18.5 10Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M11.5 17C11.5 16.1716 10.8284 15.5 10 15.5C9.17157 15.5 8.5 16.1716 8.5 17C8.5 17.8284 9.17157 18.5 10 18.5C10.8284 18.5 11.5 17.8284 11.5 17Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
@@ -15,6 +15,6 @@
 </svg>
 
     ));
-
+  
     export default ChannelIcon;
   

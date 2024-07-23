@@ -1,8 +1,8 @@
 
     import React, { forwardRef } from 'react';
-
-    export const LetterSpacingIcon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="letter spacing, text letter spacing, letter, spacing" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+    export const LetterSpacingIcon = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
+      <svg ref={ref} className={className} aria-label={ariaLabel || "letter spacing, text letter spacing, letter, spacing"} style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path d="M2.5 9.5L6 1.5L9.5 9.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M10.5 1.5L14 9.5L17.5 1.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M4 6.5H8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
@@ -10,6 +10,6 @@
 </svg>
 
     ));
-
+  
     export default LetterSpacingIcon;
   

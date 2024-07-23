@@ -1,8 +1,8 @@
 
     import React, { forwardRef } from 'react';
-
-    export const Presentation1Icon = forwardRef(({ className, style }, ref) => (
-      <svg ref={ref} className={className} aria-label="presentation, slides, ppt, powerpoint" style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+    export const Presentation1Icon = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
+      <svg ref={ref} className={className} aria-label={ariaLabel || "presentation, slides, ppt, powerpoint"} style={style} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path d="M1.5 16.5L1.5 3.5L18.5 3.5L18.5 16.5L1.5 16.5Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M6.5 8.5C6.5 10.1569 7.84315 11.5 9.5 11.5V8.5H12.5C12.5 6.84315 11.1569 5.5 9.5 5.5C7.84315 5.5 6.5 6.84315 6.5 8.5Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M6.5 8.5C6.5 10.1569 7.84315 11.5 9.5 11.5V8.5H12.5C12.5 6.84315 11.1569 5.5 9.5 5.5C7.84315 5.5 6.5 6.84315 6.5 8.5Z" stroke="currentColor" strokeOpacity="0.2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -13,6 +13,6 @@
 </svg>
 
     ));
-
+  
     export default Presentation1Icon;
   
